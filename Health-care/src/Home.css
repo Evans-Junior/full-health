@@ -1,0 +1,76 @@
+.home{
+    min-height: 100vh;
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+    display:flex;
+    /* flex: 1;  */
+    place-items: center;
+    padding-left: 20px;
+}
+
+.flex {
+    margin: 60px;
+    padding:10px;
+    background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 2rem;
+  z-index: 2;
+  backdrop-filter: blur(2rem);
+}
+
+.first{
+    margin-right: 100px;
+    margin: 70px;
+    display: flex;
+}
+
+
+.video{
+    margin: 20px;
+    align-content: center;
+    box-shadow: -1px 4px 20px -6px rgba(0,0,0,0.75);
+}
+
+.container__about{
+    background: linear-gradient(
+    to left top,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.5)
+  );
+  padding: 55px;
+  border-radius: 1rem;
+    margin: 16px;
+max-width: 500px;
+}
+
+ .flex_1{ 
+    background: linear-gradient(
+        to left top,
+        rgba(255, 255, 255, 0.8),
+        rgba(255, 255, 255, 0.5)
+      );
+      padding: -1px; 
+      border-radius: 1rem;
+      margin-left: 6%;
+      margin-right: 6%;
+      display: flex;
+      flex-wrap: wrap;
+} 
+
+
+.doc{
+  padding-top: 30px;
+    margin-left: 45%;
+}
+
+
+.doc__flex{
+    display: flex;
+    flex-wrap: wrap; 
+}
+
